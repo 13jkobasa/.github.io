@@ -1,7 +1,7 @@
 //==========================================================
 //Replace srizon with your dribbble username
 //==========================================================
-$.jribbble.getShotsByPlayerId('srizon', function (playerShots) {
+$.jribbble.getShotsByPlayerId('Jack', function (playerShots) {
     var html = [];
 
 
@@ -18,7 +18,7 @@ $.jribbble.getShotsByPlayerId('srizon', function (playerShots) {
     });
 
     $('#shotsByPlayerId').html(html.join(''));
-}, {page: 1, per_page: 9});
+}, {page: 1, per_page: 0});
 
 //========================
 //Follow button
